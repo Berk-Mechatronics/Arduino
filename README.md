@@ -4,76 +4,76 @@ This repository contains a collection of Arduino-based sensor, actuator, and con
 Each folder includes a simple .ino sketch demonstrating how to read various sensors, control motors, or generate PWM signals.
 
 The projects cover a wide range of modules commonly used in electronics, automation, and mechatronics.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📂 Project List & Descriptions
 AnalogReadSerial
 
 A simple example that reads analog input values from the ADC pins and prints them to the Serial Monitor.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DHT11_Temperature
 
 A project demonstrating the use of the DHT11 temperature and humidity sensor.
 Shows how to read humidity, temperature (°C), and print the results via serial.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ENCODER_Read_Position
 
 Reads the position of a rotary encoder by counting pulses.
 Useful for robotics, motors, and angular measurement tasks.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Encoder_with_SingleExample
 
 A single-channel encoder reading example for basic pulse counting.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 HX711
 
 Interface to the HX711 load cell amplifier, commonly used in digital weighing scales.
 Reads force/weight values from a load cell.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 LM35
 
 Reads analog temperature values from the LM35 analog temperature sensor and converts them to °C.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 MotorwithEncoderPOLULU
 
 Motor control using a Pololu motor driver + encoder feedback.
 Includes basic closed-loop motor reading.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 PWM / PWM_
 
 Simple PWM (Pulse Width Modulation) examples showing how to control LED brightness or motor speed using analogWrite().
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 encoderwrite
 
 Writes encoder pulse information to the serial monitor.
 Useful for debugging encoders.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 force_sensor_read
 
 Reads data from an analog force-sensitive resistor (FSR).
 Demonstrates how pressure/weight affects analog voltage output.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 fotoresistor
 
 Reads light intensity using a photoresistor (LDR) and prints analog values.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 motor
 
 Basic DC motor control using a motor driver (L298N or similar).
 Demonstrates forward, reverse, and speed control.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 pin4-2
 
 General-purpose digital pin reading/writing example (e.g., controlling LEDs or reading buttons).
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 proje (main.ino)
 
 A combined or larger project where multiple components were integrated.
 This folder contains a renamed main.ino showing a more complex application.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 termometer
 
 A simple digital thermometer project using an analog temperature sensor.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Technologies & Components Used
 
 Arduino UNO / Nano
@@ -89,7 +89,7 @@ DC motors, Pololu motor drivers
 PWM control
 
 Serial communication
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎯 Purpose of This Repository
 
 This repository documents my progress in:
@@ -105,7 +105,7 @@ Arduino programming fundamentals
 Basic IoT and mechatronics tasks
 
 It can also serve as sample code for beginners who want to learn Arduino through real examples.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 How to Use
 
 Open any folder of interest
@@ -117,7 +117,7 @@ Select the correct board & COM port
 Upload to your device
 
 Open the Serial Monitor (if required)
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📄 License
 
 This project is open-source. Feel free to use, modify, and learn from it.
